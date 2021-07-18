@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E0E0E</color>
+    <color name="colorPrimaryDark">#3D3D40</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="buttonColorStart">#E16A93</color>
+    <color name="buttonColorEnd">#FBFBFB</color>
+    <color name="buttonColorEndsecond">#E3A7ED</color>
+    <color name="backgroundColor">#F8F8F8</color>
+    <color name="listRowColor">#F8DAE2</color>
+    <color name="white">#FBFBFB</color>
+
+</resources>

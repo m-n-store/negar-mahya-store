@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+    <RadioGroup
+        android:id="@+id/radioGroupregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioBtn_seller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seller"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"/>
+        <RadioButton
+            android:id="@+id/radioBtn_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:checked="true"/>
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/useNameInregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="User Name "
+        android:layout_marginTop="20dp"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/passwordInregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/addressInregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Address"
+        android:layout_marginTop="20dp"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/natoinalcodeInregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="National Code"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/mobilenumberInregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint=  "Mobile Number"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btn_ok_Inregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up"
+        android:background="@drawable/custom_gradient_background"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

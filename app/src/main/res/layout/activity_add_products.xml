@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Products"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <Button
+                android:id="@+id/btnPicture"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_gradient_background"
+                android:text="insert photo" />
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Product's Name"/>
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Product's Price"
+                android:inputType="number"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup_product_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioBtn_clothing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clothing"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"/>
+                <RadioButton
+                    android:id="@+id/radioBtn_digital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Digital"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"/>
+                <RadioButton
+                    android:id="@+id/radioBtn_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Foodstuffs"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:checked="true"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/bntConfirm"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_gradient_background"
+                android:text="Confirm"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

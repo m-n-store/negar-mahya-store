@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/img_store"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/store">
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/ln_main"
+        android:layout_below="@+id/img_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/Et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="username"
+            android:textSize="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="left"/>
+
+        <EditText
+            android:id="@+id/Et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint=" password"
+            android:textSize="20dp"
+            android:layout_marginBottom="50dp"
+            android:inputType="textPassword"
+            android:gravity="left"/>
+        <Button
+            android:id="@+id/btn_login_"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="login"
+            android:textSize="20dp"
+            android:background="@drawable/custom_gradient_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="50dp"
+            />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="didn't sign up? go below"
+            android:textColor="#151415"
+            />
+        <TextView
+            android:id="@+id/textView_createAccont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="signup"
+            android:textStyle="bold"
+            android:textColor="#151415"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

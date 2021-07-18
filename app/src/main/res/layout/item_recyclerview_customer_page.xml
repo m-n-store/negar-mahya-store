@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_recy_sllerOne"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#D5B1BD">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textViewName_rec_customerpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewPrice_rec_customerpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image_item_rec_customerPage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"/>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage"
+    android:background="@color/backgroundColor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/admin_show_product"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Product list"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background"
+                tools:ignore="DuplicateIds">
+            </Button>
+            <Button
+                android:id="@+id/show_seller"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Seller List"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background">
+            </Button>
+            <Button
+                android:id="@+id/sum_price"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sum prices"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background">
+            </Button>
+
+            <Button
+                android:id="@+id/finest_seller"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Best Seller"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background">
+            </Button>
+
+            <Button
+                android:id="@+id/login_num"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="login numbers"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background">
+            </Button>
+
+            <Button
+                android:id="@+id/admin_priority"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Admin Priority"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_margin="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_gradient_background">
+            </Button>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
